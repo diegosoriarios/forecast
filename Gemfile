@@ -5,6 +5,8 @@ ruby '2.5.1'
 
 gem 'devise'
 gem 'httparty'
+gem 'rails_admin', '~> 1.4'
+gem 'rails_admin_rollincode', '~> 1.2', '>= 1.2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record

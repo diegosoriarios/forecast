@@ -12,21 +12,25 @@ class WelcomeController < ApplicationController
     @dia = []
     @clima = []
     @loop = @temp['list'].length
-
+    @array = (@loop.to_i / 5).ceil
     for x in 0..@loop
-      if (x % (@loop / 5)) == 0
+      if (x % @array-1) == 0
         @temperatura.push(@temp['list'][x]['main']['temp'])
         @dia.push(@temp['list'][x]['dt_txt'].split[0].split('-').reverse)
         @clima.push(@temp['list'][x]['weather'][0]['description'].capitalize!)
       end
     end
-  end
 
-  def create
-    @user = User.new(params[:user])
+    puts "---------------------------------------"
+    @city = City.find_or_create_by(name: current_user.city)
+    @city.save
+    puts "---------------------------------------"
 
-    @user.save
-    redirect_to @user
+    puts "---------------------------------------"
+    @country = Country.find_or_create_by(name: current_user.country, code: current_user.country_cod)
+    @country.save
+    puts "---------------------------------------"
+
   end
 
   def delete

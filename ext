@@ -1,0 +1,26 @@
+= ..iidd
+
+(from gem activerecord-5.2.0)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  PPrriimmaarryyKKeeyy
+------------------------------------------------------------------------------
+  id()
+
+------------------------------------------------------------------------------
+
+Returns the primary key value.
+
+
+(from gem activerecord-5.2.0)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  AAccttiivveeRReeccoorrdd::::RReeccoorrddNNoottFFoouunndd
+------------------------------------------------------------------------------
+
+
+(from gem sprockets-3.7.2)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  SSpprroocckkeettss::::AAsssseett
+------------------------------------------------------------------------------
+
+Internal: Unique asset object ID.
+
+Returns a String.
+
+

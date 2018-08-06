@@ -1,7 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 ul.hmenu {
   list-style: none;
-  margin: 0 0 2em;
+  margin: 0 20px 2em;
   padding: 0;
+  line-height: 32px;
   float: right;
 }
 
@@ -13,21 +20,64 @@ li{
   list-style-type: none;
 }
 
-#temp{
-  display: inline;
-  margin: 0 auto;
-}
 
 #box{
-  border: 2px solid black;
   width: 200px;
   height: 200px;
   margin-left: 1%;
-  padding-top: 5%;
   display: inline-block;
   text-align: center;
+  background-color: #050646;
+}
+
+#titulo{
+  font-size: 2.5em;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-weight: bold;
+
 }
 
 #cidade{
-  text-align: center;
+  padding-left: 5%;
+  font-size: 2em;
+}
+
+#primeiro{
+  width: 100%;
+  display: block;
+  height: 60%;
+  line-height: 116px;
+  color: white;
+}
+
+#segundo{
+  background-color: #0f459b;
+  width: 100%;
+  display: block;
+  height: 25%;
+  line-height: 48px;
+}
+
+#terceiro{
+  background-color: #4286f4;
+  width: 100%;
+  height: 15%;
+  display: block;
+  line-height: 32px;
+}
+
+.box-content{
+  background-color: #8fb4ef;
+  width: 90%;
+  height: 70vh;
+  margin-left: 5%;
+  margin-top: 15vh;
+}
+
+#temp{
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding-left: 5%;
 }

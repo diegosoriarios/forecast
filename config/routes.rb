@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
   get 'welcome/index'
-  devise_for :users
+
+  devise_for :user
+
   get 'users/sign_out' => 'users#destroy'
 
   root 'welcome#index'
