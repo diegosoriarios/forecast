@@ -81,3 +81,92 @@ li{
   position: relative;
   padding-left: 5%;
 }
+
+#backg{
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #514A9D, #24C6DC);
+  background: -o-linear-gradient(left, #514A9D, #24C6DC);
+  background: linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+#log{
+  background: white;
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 20%;
+  font-size: 0.7em;
+}
+
+#blue-box{
+  background-color: #11184c;
+  text-align: center;
+  height: 75px;
+  line-height: 75px;
+  color: white;
+}
+
+input{
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#button{
+  height: 50px;
+  background-color: #11184c;
+  line-height: 50px;
+}
+
+input[type=password]{
+  border-bottom: 2px solid #11184c;
+  width: 90%;
+  margin-left: 5%;
+}
+
+input[type=email]{
+  border-bottom: 2px solid #11184c;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#bot{
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#lf{
+  background-color: red;
+  width: 50%;
+  height: 50px;
+  float: right;
+  font-size: 0.7em;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+}
+
+#rt{
+  background-color: green;
+  width: 50%;
+  height: 100%;
+  font-size: 0.7em;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+a{color: white;}
+
+#lab{
+  margin-left: 2%;
+}
